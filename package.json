@@ -1,0 +1,23 @@
+{
+  "name": "fortune-cookie",
+  "version": "1.0.0",
+  "description": "proyectofinal",
+  "main": "this point",
+  "scripts": {
+    "test": "tec",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "serverfinal"
+  },
+  "keywords": [
+    "teo"
+  ],
+  "author": "teo",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "mime": "^1.3.4"
+  }
+}

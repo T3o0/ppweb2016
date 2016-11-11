@@ -1,0 +1,8 @@
+#ingnorando modulos de NodeJS
+node_modules
+
+#ingnorando log de node
+npm debug.log
+
+#ingnorando los paquetes para el frontend
+static/vendor
