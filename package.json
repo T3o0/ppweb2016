@@ -2,7 +2,7 @@
   "name": "fortune-cookie",
   "version": "1.0.0",
   "description": "proyectofinal",
-  "main": "this point",
+  "main": "server.js",
   "scripts": {
     "test": "tec",
     "start": "nodemon server.js"
@@ -14,10 +14,15 @@
   "keywords": [
     "teo"
   ],
-  "author": "teo",
+  "author": "@T3o0",
   "license": "UNLICENSED",
+  "devDependencies": {
+    "ember-cli-materialize": "^0.22.0-beta.0",
+    "nodemon": "^1.11.0"
+  },
   "dependencies": {
     "colors": "^1.1.2",
-    "mime": "^1.3.4"
+    "mime": "^1.3.4",
+    "jquery": "^3.1.1"
   }
 }

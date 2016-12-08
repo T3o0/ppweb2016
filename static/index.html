@@ -1,35 +1,169 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <link 
-    type="image/png" 
-    rel="shortcut.icon" 
-    href="./favicon.png">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>MI PAGINA CON NODE.JS</title>
 
-    <!--cargando estilos de sweet-->
-   <!-- <link rel="stylesheet" href="./vendor/">-->
+  <!-- CSS <link rel="stylesheet" href="./css/site.css"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href=".\vendor\sweetalert\dist\sweetalert.css">
+  
+  <link type="image/png" rel="shortcut.icon" npm href="./favicon.png">
 
-    <title>MI PAGINA CON NODE.JS</title>
-    <link rel="stylesheet" href="./css/site.css">
+
 </head>
 <body>
+  
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Cookie</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Welcome</a></li>
+      </ul>
 
-    <p>
-        <img src="./img/bien.jpg" alt="">
-    </p>
-    <h1>Pagina asombrosa</h1>
-    <p>esta pagina es de las mejores que veras 
-        en tu vida
-    </p>
-    <p><button
-     onclick="saludar()">push me, yea!!
-        </button>
-    </p>
-    <!--cargando estilos de sweet -->
-    <!--<scirpt src="./vendor/.js"></scirpt>-->
-    <script src="./js/site.js">
-    </script>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Welcome</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
 
-</body>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Cookie The Fortune</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Ven y diviertete en el ITGAM</h5>
+        </div>
+        <div class="row center">
+           
+         
+
+            <a onclick="saludar()" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          
+            
+            
+         
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="./img/fortune.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+  <script src="mlabtest/app.js"></script>
+<form ng-submit="mlabtest/app.js" method="post"
+			style="margin-top:30px;">
+				<h3>Agregar una nueva frase</h3>
+				<div class="form-group">					
+					<!-- Input del Titulo -->
+					<input
+						class="form-control"
+						placeholder="Cookie"
+						type="text" 
+						ng-model="title">
+				</div>
+				<!-- Input del link -->
+				<button 
+					class="btn btn-primary"
+					type="submit">Agregar</button>
+			</form>
+	
+		    <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Funny</h5>
+
+            <p class="light">Pero alimetate sanamente</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience</h5>
+
+            <p class="light">Puedes viertirte con tus amigos desde tu comodidade de tu hogar, en cualquier dispositivo asta moviles.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy</h5>
+
+            <p class="light">Asta mi abuelita lo sabra jugar, incluso con los ojos vendados.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <!-- Se coloca texto -->
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="./img/fortune2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company by Teo</h5>
+
+  <!--  Scripts-->
+  <script src=".\vendor\sweetalert\dist\sweetalert.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="./vendor/jquery/dist/jquery.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="./js/site.js"></script>
+  <script src="js/init.js"></script>
+  <script src="./mlabtest/app.js"></script>
+    
+    <!--<script>function guardar() {
+      var xmensaje=document.getElementById("mensajeHtml").value;
+     // alert(xmensaje);
+    var $;
+    try {
+    $.post("./mlabtest/app.js", xmensaje, function (data){
+        alert("Data: " + data);    });
+    }
+    catch(e) { alert (e.message);} 
+    } </script>
+    -->
+    
+   
+  </body>
 </html>
